@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 .menu{
     background-color: rgb(51, 54, 54);
     padding: 10px;
@@ -25,4 +26,34 @@
     margin: 10px;
     font-size: 24px;
     cursor: pointer;
+}
+.banner{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    border: 2px solid rgb(51, 54, 54);
+    background-image: url(./image/background\ image.avif);
+}
+.pic{
+    height: 300px;
+    width: 450px;
+}
+.text{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border: 2px solid rgb(6, 29, 158);
+    color: white;
 }

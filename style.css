@@ -64,6 +64,8 @@
     background-position: center;
     text-align: center;
     padding: 10px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
 }
 .about{
     display: flex;
@@ -77,9 +79,45 @@
     width: 300px;
     font-size: 30px;
     padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .about-pic{
     height: 100%;
     width: 50%;
     display: flex;
+}
+.box1{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.service{
+    padding: 10px;
+}
+.box1pic{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.box-text{
+    font-size: 18px;
+    padding: 10px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
 }

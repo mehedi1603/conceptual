@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    
 }
 
 .menu{
@@ -37,8 +38,8 @@
     background-image: url(./image/background\ image.avif);
 }
 .pic{
-    height: 300px;
-    width: 450px;
+    height: 500px;
+    width: 750px;
 }
 .text{
     font-size: 50px;
@@ -54,6 +55,31 @@
     font-size: 20px;
     padding: 10px;
     background-color: red;
-    border: 2px solid rgb(6, 29, 158);
+    border: none;
     color: white;
+    cursor: pointer;
+}
+.text1{
+    font-size: 40px;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+.about-text{
+    width: 300px;
+    font-size: 30px;
+    padding: 10px;
+}
+.about-pic{
+    height: 100%;
+    width: 50%;
+    display: flex;
 }
